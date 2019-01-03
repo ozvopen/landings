@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Foo';
+    src: url('foo.eot');
+    src: local('Foo'), local('Foo Regular'), url('foo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,410 @@
+.slc9 .container {
+    width: 100%;
+    padding: 23px 0;
+    height: auto;
+}
+figure.price-list{
+    margin-top: 16px;
+
+    margin-left: 20px;
+}
+figure.price-list section{
+    padding: 3px 0px;
+    border-top:1px solid #d9d9d9;
+    height: 71px;
+    width: 920px;
+    position: relative;
+}
+figure.price-list section.item{
+
+}
+figure.price-list section.item img.preview{
+    width: 62px;
+    height: 62px;
+
+    position: absolute;
+}
+figure.price-list section h3{
+    font-weight: 400;
+    color: #264357; /* text color */
+    font-family: "Neucha";
+    font-size: 18px;
+
+    display: inline-block;
+    text-transform: uppercase;
+    width: 230px;
+    position: absolute;
+    top: 15px;
+    margin-left: 65px;
+    letter-spacing: 1.6px;
+    line-height: 21px;
+}
+figure.price-list section span.article{
+    color: #264357; /* text color */
+    font-size: 13px;
+
+    position: absolute;
+    margin-left: 343px;
+    top: 27px;
+}
+figure.price-list section span.article span{
+    color: #9ea6aa; /* text color */
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+figure.price-list section div.quantity{
+    width: 117px;
+    height: 47px;
+    border: 4px solid #f0ecd7; /* stroke */
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    position: absolute;
+    margin-left: 648px;
+    top: 11px;
+    padding: 7px 6px 10px 12px;
+}
+figure.price-list section div.quantity input{
+    color: #333; /* text color */
+    font: inherit;
+    font-size: 24px;
+
+    width: 69%;
+    background: rgba(0,0,0,0);
+    margin-top: -4px;
+}
+figure.price-list section div.quantity a{
+    color: #777; /* text color */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    clear: both;
+    line-height: 13px;
+}
+figure.price-list section div.quantity a.inc{
+
+}
+figure.price-list section div.quantity a.dec{
+    margin-top: -2px;
+
+    margin-right: -3px;
+    display: block;
+    font-weight: 400;
+    font-size: 49px;
+}
+
+figure.price-list section div.price{
+    margin-left: 527px;
+    position: absolute;
+    top: 13px;
+}
+figure.price-list section div.price.withoutBg{
+    color: #333; /* text color */
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 766px;
+    top: 17px;
+    padding: 0;
+    position: absolute;
+}
+figure.price-list section div.price.withoutBg span.currency{
+    color: #264357; /* text color */
+    font-size: 13px;
+
+    margin-right: -14px;
+    position: absolute;
+    margin-top: 7px;
+}
+figure.price-list section a.remove{
+    height:26px;
+    width: 26px;
+    background: url('../images/cart/cross2.png') no-repeat;
+    margin-top: 19px;
+    margin-right: 1px;
+}
+figure.price-list section.summary{
+    height: 100px;
+
+}
+figure.price-list section.summary span.before-input{
+    color: #333; /* text color */
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: -94px;
+    top: 2px;
+    letter-spacing: 1.6px;
+}
+figure.price-list section.summary .quantity input{
+    color: #333; /* text color */
+    font-size: 14px;
+    width: 92%;
+    position: absolute;
+    left: 8px;
+    height: 100%;
+    top: 4px;
+}
+figure.price-list section.summary h5{
+    font-weight: 400;
+    color: #516f85; /* text color */
+    font-size: 18px;
+}
+figure.price-list section.summary div.prc{
+    color: #899092; /* text color */
+    font-size: 13px;
+}
+figure.price-list section.summary div.slc{
+    float: right;
+    margin-right: 103px;
+    margin-top: 13px;
+}
+figure.price-list section.summary div.price.withoutBg{
+    top: 61px;
+
+    font-size: 30px;
+}
+figure.price-list section.summary div.price.withoutBg span.currency{
+    left: 105px;
+    margin-top: 13px;
+}
+figure.price-list section.summary span.beforePrice{
+    color: #333; /* text color */
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: -94px;
+    top: 2px;
+    letter-spacing: 1.6px;
+    position: absolute;
+    top: 13px;
+    left: -56px;
+}
+/*SLC12*/
+.slc12{
+    margin-left: 5px;
+
+    margin-top: 23px;
+}
+.slc12 .heading{
+    /* padding: 0 48px; */
+
+    display: inline-block;
+    margin-left: 24px;
+}
+.slc12 .heading h3{ /* text color */
+    font-size: 22px;
+    border-bottom: dashed 1px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.slc12 .heading h3.blue{
+    color: #268dcb; /* text color */
+    border-color: #268dcb;
+}
+.slc12 .heading h3.green{
+    color: #27a700; /* text color */
+    border-color: #27a700;
+}
+.slc12 .discount{
+    position: absolute;
+    background: url('../images/cart/tab-addition.png') no-repeat;
+    width: 67px;
+    height: 70px;
+    color: #fff; /* text color */
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2); /* drop shadow */
+    float: right;
+    right: -67px;
+    top: -15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 18px;
+    text-align: center;
+    text-indent: -10px;
+}
+.slc12 .heading .switch1, .slc12 .heading .switch2, .slc12 .heading .switch3{
+    display: inline-block;
+    padding: 12px 29px;
+    cursor: pointer;
+    margin: 0 6px;
+}
+.slc12 .heading .switch2{
+    padding-left: 29px;;
+    width: 211px;
+    padding-right: 70px;
+}
+.slc12 .heading .switch3{
+    padding-left: 10px;;
+}
+.slc12 .inners{
+    margin-top: -64px;
+}
+.slc12 .inners .tab_inner1{
+    width: 954px;
+    height: 250px;
+    background: url('../images/cart/tab_inner1-bg.png') no-repeat;
+    padding: 89px 48px 37px;
+    padding-left: 72px;
+}
+.slc12 .inners .tab_inner2{
+    width: 954px;
+    height: 560px;
+    background: url('../images/cart/tab_inner2-bg.png') no-repeat;
+    padding: 78px 30px 45px 40px;
+    display: none;
+}
+.slc12 .inners .tab_inner3{
+    width: 954px;
+    height: 440px;
+    background: url('../images/cart/tab_inner3-bg.png') no-repeat;
+    padding: 82px 38px 37px;
+    display: none;
+}
+.slc12 .heading.tabs .active h3{
+    color: #271d0f; /* text color */
+    border-bottom: none;
+    top: 2px;
+}
+.slc12 .inners .tab_inner1 form{
+    margin-left: 314px;
+    width: 240px;
+    position: absolute;
+}
+.slc12 .inners .tab_inner1 form input{
+    margin-top: 0;
+}
+.slc12 .inners .tab_inner1.slc6 h4{
+    margin-top: 33px;
+}
+.slc12 .inners .tab_inner1 form > *{
+    width: 100%;
+}
+.slc12 .inners .tab_inner1.slc6 p{
+    width: 230px;
+    margin-top: 28px;
+    margin-right: 6px;
+}
+.slc12 .tab_inner3 .content.login{
+    margin:0 auto;
+    height: 285px;
+    text-align: center;
+    margin-top: 27px;
+}
+.slc12 .tab_inner3 .content.login .bg{
+    background: none;
+}
+.slc12 .tab_inner2{
+    margin-left: 0;
+}
+.slc12 .tab_inner2 h1{
+    color: #c64b00; /* text color */
+    font-family: "Neucha";
+    font-size: 24px;
+    margin-left: 0;
+}
+.slc12 .tab_inner2 input,
+.slc12 .tab_inner2 select,
+.slc12 .tab_inner2 label,
+.slc12 .tab_inner2 textarea{
+    color: #333; /* text color */
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+}
+.slc12 .tab_inner2 .content-left input.birthDate{
+    display: inline-block;
+    width: 141px;
+    background: url('../images/cart/phone-green.png') no-repeat 96%;
+}
+.slc12 .tab_inner2 .content-left .select-wrapper.sex{
+    width: 136px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+.slc12 .tab_inner2 input{
+    display: block;
+    margin: 3px 0 13px 1px;
+    width: 290px;
+    height: 36px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 2px 8px;
+}
+.slc12 .tab_inner2 input[type="radio"]{
+    width: auto;
+    height: auto;
+    display: inline;
+}
+.slc12 .tab_inner2 .content-left{
+    padding-right: 24px;
+    width: 291px;
+}.slc12 .tab_inner2 .delivery .select-wrapper{
+    margin: 3px 0 13px 1px;
+    width: 290px;
+}
+.slc12 .tab_inner2 .comment{
+    margin-top: -7px;
+    float: left;
+    text-align: center;
+}
+.slc12 .tab_inner2 .comment h1{
+    margin-bottom: 5px;
+    
+    text-align: left;
+}
+.slc12 .tab_inner2 .comment textarea{
+    width: 871px;
+    height: 84px;
+    resize: none;
+    margin-bottom: 14px;
+    display: block;
+    padding: 3px 8px;
+    letter-spacing: -0.2px;
+}
+.slc12 .tab_inner2 .comment button{
+    display: inline-block;
+    width: 237px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.slc12 .tab_inner2 .payment{
+    width: 258px;
+}
+.slc12 .tab_inner2 .payment input[type="radio"]{
+    margin-right: 5px;
+}
+.slc12 .tab_inner2 .payment label{
+    line-height: 28px;
+}
+.slc13 .catalog{
+    padding: 21px 36px;
+    height: auto;
+}
+.slc13 .catalog button.buy.green{
+    margin-top: -3px;
+}
+.slc13 .catalog .item h3{
+    font-size: 16px;
+}
+.slc13{
+    width: 100%;
+}
+a.cart-clear{
+    margin-right: 22px;
+}
+.slc13 .catalog .item{
+    overflow: visible;
+}

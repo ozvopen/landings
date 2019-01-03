@@ -1,0 +1,410 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=latin,cyrillic-ext);
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.clear{
+    clear: both;
+}
+body{
+    font: 20px 'Roboto', sans-serif;
+    font-weight:400;
+    background:white;	
+    color:black;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100%;
+}
+/*phone_numbers part*/
+.phone_numbers_part{
+    background: #c6c6c6;
+    height:58px;
+    min-width: 960px;
+    font:17px 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+.phone_numbers_part .phone_number{
+    float:left;
+    margin:16px 35px 0 5px;
+    color:#081e4b;
+    font: inherit;
+    letter-spacing: inherit;
+}
+.phone_numbers_part button.call_me{
+    text-transform: uppercase;
+    font:inherit;
+    font-size: 16px;
+    color: #fefefe;
+    background: #081e4b;
+    float: right;
+    cursor: pointer;
+    height: 58px;
+    width:320px;
+    letter-spacing: inherit;
+}
+.phone_numbers_part button.call_me img{
+    float: left;
+    position: relative;
+    top: -3px;
+    left: 67px;
+}
+.phone_numbers_part button.call_me span{
+    letter-spacing: 1.4px;
+    position: relative;
+    left: 10px;
+    top: -1px;
+}
+/*header_part*/
+.header .wrapper{
+    padding:27px 50px;
+}
+.header {
+    height: 97px;
+    min-width: 960px;
+}
+nav ul.menu li {
+    font:14px 'Roboto Condensed', sans-serif;
+    text-transform:uppercase;
+    display: inline;
+    list-style: none;
+    letter-spacing: inherit;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+nav ul.menu li a{
+    text-decoration: none;
+    color:#ff0101;
+}
+nav ul.menu li#howitworks, nav ul.menu li#reviews, nav ul.menu li#delivery, nav ul.menu li#contacts{
+    position:relative;
+    bottom:16px;
+}
+nav ul.menu li#howitworks{
+    margin-left:9px;
+}
+nav ul.menu li#reviews{
+    margin-left:25px;
+}
+nav ul.menu li#logo{
+    margin-left:140px;
+}
+nav ul.menu li#delivery{
+    margin-left:92px;
+}
+nav ul.menu li#contacts{
+    margin-left:21px;
+}
+/*middleContent part*/
+.middleContent{
+    height:743px;
+    min-width: 960px;
+    background: url(../images/middleContent_bg.jpg) no-repeat;
+    background-position: top center;
+}
+.middleContent .content-left{
+    width: 320px;
+}
+.middleContent .content-left h3, .middleContent .content-right h3{
+    font:20px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin: 51px 0 0 51px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.middleContent .content-right{
+    width: 320px;
+}
+.middleContent .content-right h3{
+    margin-left: 38px;
+}
+.middleContent .content-center{
+    width: 320px;
+    float: left;
+    padding-top: 42px;
+}
+.middleContent .content-center h1{
+    font:50px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.middleContent .content-center h2{
+    font:24px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-top: -6px;
+    color: white;
+    text-align: center;
+}
+.middleContent .content-center img#preview{
+    margin: 93px 0 0 -34px;
+}
+.middleContent .content-center img#warranty_100_label{
+    margin: -96px 0 0 82px;
+}
+.middleContent dl.features{
+    margin: 99px 0 0 51px; 
+}
+.middleContent dl.features dt{
+    font:24px 'Roboto Condensed', sans-serif;
+    color:#eb2929;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 35px 0 9px 0;
+}
+.middleContent dl.features dd{
+    color: #474747;
+    font-size: 14px;
+    line-height: 18px;
+}
+.offeringContent div.featuring{
+    margin-top: -5px;
+    padding: 50px 0 0 76px !important;
+}
+/* offreringContent*/
+.offeringContent{
+    background: linear-gradient(to bottom, #081e4b, #081e4b) no-repeat;
+    background-size: 100% 300px;
+    height: 1256px;
+    min-width: 960px;
+    width: 100%;
+    overflow: hidden;
+}
+.offeringContent img.triangle{
+    position: relative;
+    left: 456px;
+    top: -5px;
+}
+.offeringContent .heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fefefe;
+    text-transform: uppercase;
+}
+.offeringContent .heading p.slogun{
+    padding: 24px 0 47px 0;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.offeringContent .heading .content-right{
+    background: url(../images/bigFinger.png) no-repeat;
+    background-position: right;
+    padding: 6px 42px 0 0;
+    font-size: 13px;
+    height: 39px;
+    line-height: 13px;
+    margin: 21px -1px 0 0;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+.offeringContent .heading .content-right div{
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2.3px;
+}
+.offeringContent .redBox, .offeringContent .blueBox{
+    height: 280px;
+    padding: 78px 72px;
+    color: #fefefe;
+    font-weight: 300;
+    /* line-height: 24px; */
+}
+.offeringContent img#tipImg2{
+    margin: -5px 0 0 49px;
+}
+.offeringContent div.border-bottom{
+    width: 480px;
+    border-bottom: 2px solid #d1d1d1;
+    height: 280px;
+}
+.offeringContent img#tipImg3{
+    margin: 14px 0 0 86px;
+}
+.offeringContent img#tipImg4{
+    margin: 4px 0 0 64px;
+}
+.offeringContent #border-bottom1{
+    height:273px;
+}
+.offeringContent #border-bottom2{
+    border-left: 2px solid #d1d1d1;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 282px;
+    width: 481px;
+}
+.offeringContent #f3 ul li{
+    list-style-image: url(../images/bulletRed.png);
+}
+.offeringContent img#tipImg5{
+    margin: 1px 0 0 57px;
+}
+.slang{
+    background: linear-gradient(to left, #081e4b , #081e4b) no-repeat;
+    background-position: top center; 
+    background-size: 1160px 264px;
+    height: 732px;
+}
+.slang h1, .reviews h1{
+    color: white;
+    font: 40px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 42px 0 0 37px;
+}
+.slang img.triangle{
+    position: relative;
+    left: 455px;
+    top: -5px;
+}
+.slang .redBox{
+    width: 720px;
+    height: 474px;
+    padding: 75px 260px 0 50px;
+    color: #fefefe;
+    box-sizing: border-box;
+    font: 20px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 65px;
+}
+.slang iframe.video{
+    margin: -295px 0 0 462px;
+    position: relative;
+    top: -38px;
+}
+.reviews{
+    background: linear-gradient(to bottom, #081e4b, #081e4b) no-repeat;
+    background-size: 100% 150px;
+    min-width: 960px;
+    width: 100%;
+    height: 390px;
+}
+.reviews img.triangle{
+    position: relative;
+    left: 455px;
+    top: -5px;
+}
+.reviews h1{
+    color: white;
+    font: 40px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin: 22px 0 0 37px;
+}
+.reviews button.orderNow{
+    margin: -41px 50px 0 0;
+}
+.reviews div.review{
+    width: 480px;
+    height: 240px;
+    padding: 49px 52px;
+    color: #fefefe;
+    box-sizing: border-box;
+    font: 15px 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 49px;
+}
+.reviews div.review dl dt{
+    font-size: 18px;
+    margin-top: -2px;
+    letter-spacing: 1.8px;
+    padding-bottom: 16px;
+}
+.reviews div.review dl dd{
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-weight: 300;
+}
+.reviews div.review img{
+    margin: -12px 0 0 -38px;
+    float: left;
+}
+.reviews div.blue{
+    color: #081e4b;
+}
+.ordering{
+    background: url(../images/ordering-bg.jpg)no-repeat;
+    background-position: center top;
+    height: 450px;
+    margin-top: 55px;
+    text-align: center;
+}
+.ordering .content-center h1{
+    font:50px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 700;
+    margin-top: 35px;
+    letter-spacing: 3px;
+    line-height: 42px;
+}
+.ordering .content-center h2{
+    font:33px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0;
+    font-weight: 300;
+    color: #fefefe;
+}
+.ordering .content-center h3{
+    text-transform: uppercase;
+    font:24px 'Roboto Condensed', sans-serif;
+    color: #fefefe;
+    margin-top: 19px;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+}
+.ordering input{
+    margin:10px 0 0 10px;
+}
+.ordering .price{
+    padding: 73px 0 0 11px;
+}
+.ordering button.orderNow{
+    margin-top: 4px;
+}
+.ordering input{
+    margin: 7px 0 0 5px;
+    width: 218px;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    color: #081e4b;
+    font-weight: 400;
+    font: 11px 'Roboto Condensed', sans-serif;
+    height: 69px;
+    padding-top: 26px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .wrapper, .offeringContent .redBox, .offeringContent .blueBox, .offeringContent #border-bottom2, .orderNowBlock, .slang .redBox, .reviews div.review, .footer{
+        -moz-box-sizing: border-box;
+    }
+    .offeringContent img#tipImg2, .offeringContent div.featuring, .reviews div.review{
+        position: relative;
+        top:-1px;
+    }
+    .slang iframe.video{
+        top: -39px;
+    }
+}
+/*EOF FIREFOX CSS HACK*/

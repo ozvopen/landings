@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"o5" gilts shop | Магазин подарков</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/interpage.css" />
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/trackBar.css" />
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+        <![endif]-->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/DoubleTrackBar.js"></script>
+        <script type="text/javascript" src="js/displaying.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="slc1">
+                <div class="slc8">
+                    <div class="content-left">
+                        <a class="type1" href="#">О магазине</a>
+                        <a class="type1" href="delivery.html">Доставка и оплата</a>
+                        <a class="type1" href="shares.html">Акции</a>
+                        <a class="type1" href="contacts.html">Контакты</a>
+                    </div>
+                    <a class="type2 login-ref" onclick="popupShow('.login');" href="#">Вход на сайт</a>
+                    <span class="type1">|</span>
+                    <a class="type2" onclick="popupShow('.register');" href="#">Регистрация</a>
+                    <div class="social-small content-right">
+                        <img src="images/vk.png" width="16" height="16" alt="VK">
+                        <img src="images/tw.png" width="16" height="16" alt="Twitter">
+                        <img src="images/fb.png" width="16" height="16" alt="Facebook">
+                        <img src="images/gp.png" width="16" height="16" alt="Google Plus">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="logo content-left">
+                        <a href="index.html">
+                            <img class="logo" src="images/logo.png" width="90" height="99" alt="gilts shop">
+                            <h3 class="title">Магазин<br>подарков</h3>
+                        </a>
+                    </div>
+                    <div class="cart-info">
+                        <img class="content-left" src="images/cart.png" width="43" height="40" alt="cart">
+                        <a href="cart.html">
+                            <h1>каляска</h1>
+                        </a>
+                        <p>0 товара, 0x000cc</p>
+                    </div>
+                    <div class="content-right">
+                        <img class="content-left" src="images/phone.png" width="27" height="43" alt="">
+                        <div class="phn">
+
+                            <span class="phone_number" id="tel1">(033) 444-55-55</span>
+                            <span class="phone_number" id="tel2">(022) 333-44-55</span>
+                            <br>
+                            <span class="phone_number" id="tel3">(011) 555-44-33</span>
+                            <span class="phone_number" id="tel4">(001) 222-33-44</span>
+                            <div class="clear"></div>
+                            <a href="#" onclick="popupShow('.callMe');" class="call_me">Перезвоните да</a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="content-left">
+                    <ul class="top-menu">
+                        <li><a href="#">По категориям</a></li>
+                        <li><a href="#">Кого хотите удивить?</a>
+                            <div class="sub-menu">
+                                <ul class="sheath">
+                                    <img class="border-addition content-left" src="images/subMenuArrow.png" width="29" height="18" alt=""> 
+                                    <div class="row content-left">
+                                        <h3>Мужчину</h3>
+                                        <li>
+                                            <a href="#">трудоголика</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">философа</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">супермена</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">неформала</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">мечтателя</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">интелектуала</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">делового</a>
+                                        </li>
+                                    </div>
+                                    <div class="row content-left">
+                                        <h3>Женщину</h3>
+                                        <li>
+                                            <a href="#">бизнесвумен</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">рокстар</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">романтичную</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">хиппи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">хипстера</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">лапландку</a>
+                                        </li>
+                                    </div>
+                                    <div class="row content-left">
+                                        <h3>Ребенка</h3>
+                                        <li>
+                                            <a href="#">до 5-ти лет</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">5-12 лет</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">12 — 20 лет</a>
+                                        </li>
+                                    </div>
+                                    <div class="row content-left">
+                                        <h3>Родных</h3>
+                                        <li>
+                                            <a href="#">маму</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">папу</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">сестру</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">брата</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">бабушку</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">дедушку</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">сына</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">По какому поводу?</a></li>
+                        <li><a href="#">Может по увлечению?</a></li>
+                    </ul>
+                </nav>
+                <form class="search content-right">
+                    <input class="search-box content-right">
+                    <div class="search-box-addition">
+                        <div class="wrp">
+                            <img class="border-addition content-left" src="images/subMenuArrow.png" width="29" height="18" alt=""> 
+                            <div class="content">
+                                <img class="content-left" src="images/sba-i1.jpg" width="55" height="55" alt="Стакан «Череп»">
+                                <h3>Для настоящих мужчин (250 мл)</h3>
+                                <div class="price withoutBg content-right">
+                                    0x00
+                                    <span class="currency">cc</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <img class="content-left" src="images/sba-i2.jpg" width="62" height="60" alt="Стакан «Череп»">
+                                <h3>Часы «Интересная текстура»</h3>
+                                <div class="price withoutBg content-right">
+                                    0x00
+                                    <span class="currency">cc</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <img class="content-left" src="images/sba-i2.jpg" width="62" height="60" alt="Стакан «Череп»">
+                                <h3>Часы «Интересная текстура»</h3>
+                                <div class="price withoutBg content-right">
+                                    0x00
+                                    <span class="currency">cc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <figure class="slider">
+                <div class="roller item1 active content-left">
+                    <h1>Чудо подушка<br>«Бревно»</h1>
+                    <div class="price content-left">
+                        0x00
+                        <span class="currency">cc</span>
+                    </div>
+                </div>
+                <div class="roller item2 content-left">
+                    <h1>Открывалка «Unpackman»</h1>
+                    <p>Культовый персонаж компьютерной игры 80-х.</p>
+                    <div class="price content-left">
+                        0x00
+                        <span class="currency">cc</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="static">
+                    <div class="arrowPointer content-left"></div>
+                    <div class="arrowPointer content-right"></div>
+                    <div class="circles content-right">
+                        <span></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </figure>
+            <div class="clear"></div>
+            <div class="catalog">
+                <div class="heading-wrp">
+                    <div class="heading item1">
+                        <div class="logo content-left">NEW</div>
+                        <h1 class="content-left">Новинки</h1>
+                        <a class="type3 content-right" href="#">Все новинки</a>
+                    </div>
+                    <div class="heading item2">
+                        <div class="logo content-left"></div>
+                        <h1 class="content-left">Акционные товары</h1>
+                        <a class="type3 content-right" href="#">Все акционные товары</a>
+                    </div>
+                </div>
+                <div class="catalog-wrp alignment-parent">
+                    <div class="item centered" id="ci1">
+                        <div class="graphics">
+                            <div class="img-addition type1"></div>
+                            <img class="mainPic" src="images/itm1.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Стакан «Череп»</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci2">
+                        <div class="graphics">
+                            <div class="img-addition type1"></div>
+                            <img class="mainPic" src="images/itm2.jpg" width="200" height="200" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci3">
+                        <div class="graphics">
+                            <div class="img-addition type2"></div>
+                            <img class="mainPic" src="images/itm1.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Стакан «Череп»</h3></a>
+                        <div class="price-wrp">
+                            <div class="price withoutBg">
+                                0x01
+                                <span class="currency">cc</span>
+                            </div>
+                            <div class="price crossed">
+                                0x00
+                                <img src="images/cross.png" alt="">
+                                <span class="currency">cc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci4">
+                        <div class="graphics">
+                            <div class="img-addition type2"></div>
+                            <img class="mainPic" src="images/itm2.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price-wrp">
+                            <div class="price withoutBg">
+                                0x01
+                                <span class="currency">cc</span>
+                            </div>
+                            <div class="price crossed">
+                                0x00
+                                <img src="images/cross.png" alt="">
+                                <span class="currency">cc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci5">
+                        <div class="graphics">
+                            <div class="img-addition type1"></div>
+                            <img class="mainPic" src="images/itm3.jpg" width="200" height="200" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci6">
+                        <div class="graphics">
+                            <div class="img-addition type1"></div>
+                            <img class="mainPic" src="images/itm4.jpg" width="250" height="237" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci7">
+                        <div class="graphics">
+                            <div class="img-addition type2"></div>
+                            <img class="mainPic" src="images/itm3.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price-wrp">
+                            <div class="price withoutBg">
+                                0x01
+                                <span class="currency">cc</span>
+                            </div>
+                            <div class="price crossed">
+                                0x00
+                                <img src="images/cross.png" alt="">
+                                <span class="currency">cc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci8">
+                        <div class="graphics">
+                            <div class="img-addition type2"></div>
+                            <img class="mainPic" src="images/itm4.jpg" width="250" height="237" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price-wrp">
+                            <div class="price withoutBg">
+                                0x01
+                                <span class="currency">cc</span>
+                            </div>
+                            <div class="price crossed">
+                                0x00
+                                <img src="images/cross.png" alt="">
+                                <span class="currency">cc</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slc2 alignment-parent">
+                <div class="content centered" id="slc2-ci1">
+                    <img src="images/slc2-c1-img.png" width="139" height="168" alt="">
+                    <h2>Доставка по<br>всей Лапландии!</h2>
+                    <h4>до 3 дней</h4>
+                </div>
+                <div class="content centered" id="slc2-ci2">
+                    <img src="images/slc2-c2-img.png" width="200" height="177" alt="">
+                    <h2>Скидки для<br>именинников!</h2>
+                    <h4>до 15%</h4>
+                </div>
+                <div class="content centered" id="slc2-ci3">
+                    <img src="images/slc2-c3-img.png" width="154" height="131" alt="">
+                    <h2>Подарки на<br>любой<br>вкус!</h2>
+                </div>
+            </div>
+            <div class="slc3">
+                <div class="content">
+                    <h1>Подбор подарка</h1>
+                    <div class="content-left">
+                        <h6>Цена, cc</h6>
+                        <input type="text" value="200">
+                        <div class="DTB">
+                            <div id="DoubleTrack-5" class="DoubleTrackBar">
+                                <div id="DoubleTrack-5-Tracker" class="Tracker">
+                                    <img src="images/track.png" alt='' class="fll" />
+                                    <img src="images/track.png" alt='' class="flr" />
+                                    <span class="fll text" id="DoubleTrack-5-LeftText"></span>
+                                    <span class="flr text" id="DoubleTrack-5-RightText"></span>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                var DoubleTrackBar = new cDoubleTrackBar('DoubleTrack-5', 'DoubleTrack-5-Tracker', {
+                                    OnUpdate: function () {
+                                        $('DoubleTrack-5-LeftText').innerHTML = this.leadSpaces(this.MinPos);
+                                        $('DoubleTrack-5-RightText').innerHTML = this.leadSpaces(this.MaxPos);
+                                        this.Tracker.style.backgroundPosition = -this.TrackerLeft + 'px center';
+                                        if (this.fix)
+                                            for (var i in this.fix)
+                                                this.fix[i].style.left = (this.TrackerRight - this.TrackerLeft) + 'px';
+                                    },
+                                    Min: 0,
+                                    Max: 200,
+                                    FingerOffset: 1,
+                                    MinSpace: 10,
+                                    RoundTo: 1,
+                                    Margins: 0,
+                                    FormatNumbers: true,
+                                    AllowedValues: true
+                                });
+                                DoubleTrackBar.AutoHairline(6);
+                                //   DoubleTrackBar.fix = classFilter(DoubleTrackBar.Tracker.getElementsByTagName('*'), 'flr');
+                            </script>
+                        </div>
+                        <input type="text" value="200">
+                    </div>
+                    <div class="content-left">
+                        <h6>Для кого подарок?</h6>
+                        <div class="select-wrapper">
+                            <select name="present-identifier">
+                                <option selected="selected">Кому подарок?</option>
+                                <option>Кому подарок?</option>
+                                <option>Кому подарок?</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <button>Подобрать подарок!</button>
+                </div>
+            </div>
+            <div class="catalog catalog2">
+                <div class="alignment-parent">
+                    <div class="item centered" id="ci9">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm5.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci10">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm6.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci11">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm7.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci12">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm8.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slc4 alignment-parent">
+                <div class="item itm1 centered">
+                    <img src="images/slc4-i1.png" width="82" height="94" alt="">
+                    <h1>До 3 дней</h1>
+                    <p>Доставка по всей<br>Лапландии</p>
+                </div>
+                <div class="item itm2 centered">
+                    <img src="images/slc4-i2.png" width="127" height="101" alt="">
+                    <h1>14 дней</h1>
+                    <p>Гарантия возврата<br>товара</p>
+                </div>
+                <div class="item itm3 centered">
+                    <img src="images/slc4-i3.png" width="87" height="97" alt="">
+                    <h1>24/7</h1>
+                    <p>Принимаем онлайн-<br>заказы круглосуточно</p>
+                </div>
+                <div class="item itm4 centered">
+                    <img src="images/slc4-i4.png" width="88" height="87" alt="">
+                    <h1>100%</h1>
+                    <p>Мы гарантируем защиту<br>персональных данных</p>
+                </div>
+            </div>
+            <div class="catalog catalog3">
+                <div class="alignment-parent">
+                    <div class="item centered" id="ci13">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm5.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci14">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm6.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci15">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm7.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci16">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm8.jpg" width="200" height="200" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slc5">
+                <h1>Как происходит заказ? Все очень просто!</h1>
+                <div class="content-left item1">
+                    <div class="graghic"></div>
+                    <p>Вы оформляете заказ на сайте, или звоните нам.</p>
+                </div>
+                <img class="arrow-to-right" src="images/arrow-to-right.png" width="67" height="24" alt="">
+                <div class="content-left item2">
+                    <div class="graghic"></div>
+                    <p>Мы перезваниваем Вам, уточняем модель, адрес и удобное время доставки</p>
+                </div>
+                <img class="arrow-to-right" src="images/arrow-to-right.png" width="67" height="24" alt="">
+                <div class="content-left item3">
+                    <div class="graghic"></div>
+                    <p>Вы можете прийти в наш шоу-рум либо выбрать вариант доставки</p>
+                </div>
+                <img class="arrow-to-right" src="images/arrow-to-right.png" width="67" height="24" alt="">
+                <div class="content-left item4">
+                    <div class="graghic"></div>
+                    <p>Если Вам все нравится - осуществляете оплату удобным способом</p>
+                </div>
+                <img class="arrow-to-right" src="images/arrow-to-right.png" width="67" height="24" alt="">
+                <div class="content-left item5">
+                    <div class="graghic"></div>
+                    <p>Вы счастливый обладатель шапки CHARISMA!</p>
+                </div> 
+                <div class="clear"></div>
+            </div>
+            <div class="catalog catalog4">
+                <div class="alignment-parent">
+                    <div class="item centered" id="ci17">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm1.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci18">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm2.jpg" width="200" height="200" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="ci19">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm1.jpg" width="200" height="198" alt="Стакан «Череп»">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Часы «Интересная тексту-<br>ра»</h3></a>
+                        <div class="price">
+                            0x0
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                    <div class="item centered" id="c20">
+                        <div class="graphics">
+                            <img class="mainPic" src="images/itm2.jpg" width="200" height="200" alt="Для настоящих мужчин (250 мл)">
+                        </div>
+                        <div class="clear"></div>
+                        <a class="type6" href="#"><h3>Для настоящих мужчин<br>(250 мл)</h3></a>
+                        <div class="price">
+                            0x00
+                            <span class="currency">cc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slc6">
+                <div class="content-left">
+                    <h4>Не можете определиться?</h4>
+                    <h2>Мы поможем выбрать подарок!</h2>
+                    <p>Оставьте Ваши номер телефона, и наш менеджер Вас проконсультирует</p>
+                </div>
+                <div class="content-right">
+                    <input type="text">
+                    <button class="callback">Жду звонка!</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="slc7">
+            <div class="slc8">
+                <div class="content-left">
+                    <a class="type4" href="#">О магазине</a>
+                    <a class="type4" href="delivery.html">Доставка и оплата</a>
+                    <a class="type4" href="shares.html">Акции</a>
+                    <a class="type4" href="contacts.html">Контакты</a>
+                    <a class="type4" href="#">Политика в большом городе</a>
+                    <a class="type4" href="#">Условия оформления ипотеки</a>
+                </div>
+                <div class="social-small content-right">
+                    <img src="images/vk.png" width="16" height="16" alt="VK">
+                    <img src="images/tw.png" width="16" height="16" alt="Twitter">
+                    <img src="images/fb.png" width="16" height="16" alt="Facebook">
+                    <img src="images/gp.png" width="16" height="16" alt="Google Plus">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <hr noshade="noshade">
+            <p class="about">© 2044 "PKODD" PJCSX</p>
+                    
+        </div>
+        <div class="popup">
+            <div class="fog"></div>
+            <div class="content login">
+                <div class="close"></div>
+                <h1>Вход на сайт</h1>
+                <input type="text" placeholder="Введите e-mail">
+                <input type="password" placeholder="******">
+                <div class="bg">
+                    <button class="sign-in-submit submit">Войти на сайт</button>
+                    <h3>Вход через соц. сеть:</h3>
+                    <a href="#" class="vk-big"></a>
+                    <a href="#" class="fb-big"></a>
+                    <a href="#" class="tw-big"></a>
+                    <a href="#" class="gp-big"></a>
+                </div>
+                <a href="#" class="type5 content-left">Регистрация</a>
+                <a href="#" class="type5 content-right">Забыли пароль?</a>
+                <div class="clear"></div>
+            </div>
+
+            <div class="content lostpass">
+                <div class="close"></div>
+                <h1>Забыли пароль?</h1>
+                <input type="text" placeholder="Введите e-mail">
+                <div class="bg">
+                    <button class="sign-in-submit submit">Восстановить пароль</button>
+                </div>
+                <a href="#" class="type5 content-left">Вход на сайт</a>
+                <a href="#" class="type5 content-right">Регистрация</a>
+                <div class="clear"></div>
+            </div>
+
+            <div class="content register">
+                <div class="close"></div>
+                <h1>Регистрация</h1>
+                <input type="text" placeholder="Введите e-mail">
+                <div class="bg">
+                    <button class="sign-in-submit submit">Зарегистрироваться</button>
+                    <h3>Регистрация через соц. сеть:</h3>
+                    <a href="#" class="vk-big"></a>
+                    <a href="#" class="fb-big"></a>
+                    <a href="#" class="tw-big"></a>
+                    <a href="#" class="gp-big"></a>
+                </div>
+                <a href="#" class="type5 content-left">Регистрация</a>
+                <a href="#" class="type5 content-right">Забыли пароль?</a>
+                <div class="clear"></div>
+            </div>
+            <div class="content callMe">
+                <div class="close"></div>
+                <h1>Перезвоните мне</h1>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Телефон">
+                <div class="bg">
+                    <button class="sign-in-submit submit">Перезвоните</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </body>
+</html>

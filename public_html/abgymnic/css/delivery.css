@@ -1,0 +1,127 @@
+.header nav ul.menu li#delivery a{
+    color: #081e4b;
+}
+.del1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fefefe;
+    height: 165px;
+}
+.del1 .wrapper{
+    background-color: #081e4b;
+    box-sizing: border-box;
+    padding: 48px 0 0 49px;
+}
+.del1 h3{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+}
+.del1 h3 span.heading{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    padding-right: 9px;
+}
+.del1 h3 span.letter-spacing{
+    letter-spacing: 2px;
+}
+.del1 p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 27px 0 0 371px;
+    letter-spacing: 1.4px;
+}
+.del2 .whiteBox, .del2 .redBox{
+    height: 280px;
+    width: 480px;
+    box-sizing: border-box;
+    padding-top: 78px;
+    margin-top: -26px;
+}
+.del2 .redBox{
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.del2 .whiteBox{
+    padding-left: 70px;
+}
+
+.del2 dl.features{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.del2 dl.features dt{
+    font-size:20px;
+    color:#081e4b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.del2 dl.features dd{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 17px;
+    font-family: inherit;
+}
+.del2 .whiteBox dl.features dt{
+    color:#eb2929;
+}
+.del2 .whiteBox dl.features dd{
+    color:#081e4b;
+}
+.del2 .wrapper{
+    height: 280px;
+}
+.del2 img.triangle{
+    position: relative;
+    left: 454px;
+    top: -5px;
+}
+.del2 .offset{
+    background-color: #eb2929;
+    width: 100px;
+    margin-left: -100px;
+    height: 280px;
+    display: inline-block;
+    margin-top: -26px;
+}
+.payment .offset{
+    margin-right: -100px;
+}
+.payment h3{
+    font-weight: 300;
+}
+.payment .whiteBox{
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.payment .redBox{
+    padding-left: 68px;
+    letter-spacing: -0.2px;
+    padding-right: 0;
+}
+.payment .whiteBox, .payment .redBox{
+    padding-top: 57px;
+}
+.warranty + .del2, .warranty .whiteBox, .warranty .redBox, .warranty .offset{
+    height:450px;
+}
+.warranty .wrapper{
+    height: 100%;
+}
+.warranty .whiteBox, .warranty .redBox{
+    padding-top: 46px;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .del1 .wrapper, .del2 .whiteBox, .del2 .redBox{
+        -moz-box-sizing: border-box;
+    }
+    .del2{
+        margin-top: -1px;
+    }
+}
+/*EOF FIREFOX CSS HACK*/

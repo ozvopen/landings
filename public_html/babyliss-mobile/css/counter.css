@@ -1,0 +1,39 @@
+.counter{
+
+}
+.counter .section{
+    background: url(../images/cbg.png) no-repeat;
+    width: 82px;
+    height: 92px;
+    color: white;
+    display: inline-block;
+    font-size: 31px;
+    font-family: Open Sans, sans-serif;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -5px;
+    margin-right: -10px;
+    vertical-align: middle;
+    position: relative;
+    padding: 17px 0;
+}
+.counter .section .value{
+    /* position: absolute; */
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #940336;
+    display: inline-block;
+    width: 100%;
+    left: -6px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: 10px;
+}
+.counter .section label{
+    font-size: 16px;
+    font-weight: 300;
+    position: absolute;
+    top: 80px;
+    text-indent: -10px;
+    width: 100%;
+}

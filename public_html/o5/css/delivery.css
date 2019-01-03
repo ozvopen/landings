@@ -1,0 +1,67 @@
+.slc9 .container{
+    width: 100%;  padding: 23px 3px;  
+}
+.slc15{
+    padding: 19px 19px;
+
+}
+.slc15 h3{
+    color: #c74b00; /* text color */
+    font-family: "Neucha";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 28px;
+    letter-spacing: -0.6px;
+}
+.slc15 h3:before{
+    margin-right: 20px;
+    position: relative;
+    top: 6px;
+}
+.slc15 p,
+.slc15 span,
+.slc15 ul li{
+    color: #333; /* text color */
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+}
+.slc15 .delivery{
+    width: 400px;
+
+}
+.slc15 .delivery h3:before{
+content: url('../images/delivery/h3-1.png');
+}
+.slc15 .delivery span{
+}
+.slc15 .delivery h6{
+    color: #333; /* text color */
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.slc15 .payment{
+    width: 395px;
+
+    margin-right: 41px;
+}
+.slc15 .payment ul{
+    margin-top: 13px;
+    
+    list-style: none;
+}
+.slc15 .payment ul li{
+    
+}
+.slc15 .payment ul li:before{
+    content: "- ";}
+.slc15 .payment h3:before{
+    content: url('../images/delivery/h3-2.png');
+}
+.slc9 .container h1{
+    height: 48px;
+    display: block;
+}

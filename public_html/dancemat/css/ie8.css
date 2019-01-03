@@ -1,0 +1,33 @@
+/*IE8 CSS HACK V1.0*/
+@charset "utf-8";
+.call_me{
+    margin:-27px 4px 0 0;
+    text-indent:12px;	
+}
+.ticket > .line1, .ticket > .line2, .ticket > .line3{
+    filter: Shadow(Color=#183a65, Direction=0, Strength=1);
+}
+.title_block, .title_block > .bottom{
+    filter: Shadow(Color=#000, Direction=0, Strength=20);
+}
+.tabs {
+    bottom: 234px;
+}
+.store_operation {
+    left: -191px;
+}
+.footer .footer_content div {
+    float: none;
+}
+.footer .copyright_block{
+    float:left;
+}
+.footer .footer_content{
+    font-weight: lighter;
+}
+.footer .footer_content .bottom_text_left {
+    margin-top: -18px;
+    margin-left: 170px;
+    word-spacing: -1px;
+    letter-spacing: -0.5px;
+}

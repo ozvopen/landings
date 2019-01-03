@@ -1,0 +1,17 @@
+.slc9 .container{
+    width: 100%;  
+    padding: 23px 3px;  
+    padding-bottom: 0;
+}
+.slc9 .container h1{
+    height: 67px;
+    display: block;
+}
+.slc18 .item{
+    margin-bottom: 20px;
+}
+nav.bottom{
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-bottom: 27px;
+}

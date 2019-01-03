@@ -1,0 +1,106 @@
+.header nav ul.menu li#reviews a{
+    color: #081e4b;
+}
+.reviews-heading{
+    background: none;
+    height: 165px;
+}
+.reviews-heading .wrapper{
+    background: linear-gradient(to bottom, #081e4b, #081e4b) no-repeat;
+    background-size: 100% 165px;
+    padding: 40px 50px 0 60px;
+}
+.reviews-heading .heading p.slogun{
+    font-weight: 400;
+}
+#rvw1{
+    height: 85px;
+    width: 472px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 40px 0 0 71px;
+    letter-spacing: 2.3px;
+}
+.post-review .offset{
+    height: 280px;
+    width: 109px;
+    background-color: #eb2929;
+    margin-left: -101px;
+}
+.post-review .wrapper > img.triangle{
+    margin-left: -26px;
+    position: relative;
+    top: -5px;
+}
+.post-review .whiteBox{
+    margin: 54px 98px 0 0;
+}
+.post-review .leaveComment{
+    margin: 59px 0 0 8px;
+    z-index: 10;
+    position: relative;
+}
+.post-review #rvw2{
+    height:280px;
+    width:581px;
+    margin: -245px -101px 0 0;
+    background: url(../images/tip6.jpg) no-repeat;
+}
+.post-review #tipImg6{
+    margin-top: -248px;
+}
+
+#rvw-reviews {
+    background: none;
+    height: 560px;
+}
+#rvw-reviews .review{
+    margin: 0;
+    height: 280px;
+    padding: 36px 48px 10px 11px;
+    font-size: 20px;
+}
+#rvw-reviews div.review dl dd{
+    line-height: 27px;
+    margin-top: 6px;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+#rvw-reviews .offset#rvw3, #rvw-reviews .offset#rvw4{
+    width: 100px;
+    height: 280px;
+    background-color: #eb2929;
+}
+#rvw-reviews .offset#rvw3{
+    margin-left: -100px;
+}
+#rvw-reviews .offset#rvw4{
+    margin-right: -100px;
+}
+#rvw-reviews #review3 img{
+    float: left;
+    margin-top: -9px;
+}
+#rvw-reviews #review4, #rvw-reviews #review6{
+    padding: 38px 6px 10px 54px;
+}
+.ordering{
+    margin-top: 88px;
+}
+.ordering h3{
+    margin-top: 56px !important;
+}
+.ordering h1{
+    margin-top: 26px !important;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .blueBox.leaveComment{
+        margin-top: 58px;
+    }
+    #rvw-reviews #rvw3.offset, #rvw-reviews #rvw4.offset {
+        margin-top:-1px;
+    }
+}
+/*EOF FIREFOX CSS HACK*/

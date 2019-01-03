@@ -1,0 +1,26 @@
+jQuery(document).ready(function() {
+	$('.tab1').click(function(){
+		$(this).addClass('active');
+		$('.tab2').removeClass('active');
+		$('.tab3').removeClass('active');
+		$('.tab_inner1').css('display','block');
+		$('.tab_inner2').css('display','none');
+		$('.tab_inner3').css('display','none');	
+	});
+	$('.tab2').click(function(){
+		$(this).addClass('active');
+		$('.tab1').removeClass('active');
+		$('.tab3').removeClass('active');
+		$('.tab_inner2').css('display','block');
+		$('.tab_inner1').css('display','none');
+		$('.tab_inner3').css('display','none');	
+	});
+	$('.tab3').click(function(){
+		$(this).addClass('active');
+		$('.tab1').removeClass('active');
+		$('.tab2').removeClass('active');
+		$('.tab_inner3').css('display','block');
+		$('.tab_inner1').css('display','none');
+		$('.tab_inner2').css('display','none');	
+	});
+});

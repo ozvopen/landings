@@ -1,0 +1,269 @@
+button.orderNow{
+    background: linear-gradient(to bottom, #ff5252, #d70101);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    text-transform: uppercase;
+    color:white;
+    width:220px;
+    height: 40px;
+    font:20px 'Roboto Condensed', sans-serif;
+    margin: 48px auto auto;
+    display: block;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.content-left{
+    float: left;
+}
+.content-right{
+    float: right;
+}
+.block{
+    display: block;
+}
+.price{
+    font-size:30px;
+    color:white;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: -34px;
+}
+.price span.text{
+    font-size: 13px;
+    color: white;
+    vertical-align: top;
+    position: relative;
+    top: 4px;
+}
+span.uppercase-capital{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+span.darkBlue{
+    color:#081e4b;
+}
+span.red{
+    color: #eb2929;
+}
+.redBox{
+    background-color: #eb2929;
+}
+.blueBox{
+    background-color: #081e4b;
+}
+.redBox, .blueBox{
+    width: 480px;
+    height: 280px;
+    box-sizing: border-box;
+    font: 20px 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+div.features{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+div.features p{
+    font-size: 100px;
+    font-weight: 300;
+}
+div.features p span.s72{
+    font-size: 72px;
+    padding: 0 25px;
+    position: relative;
+    bottom: 14px;
+}
+div.features div.fL, div.features div.fR{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #081e4b;
+    margin-top: -13px;
+    font-weight: 400;
+    padding-left: 19px;
+    letter-spacing: 1.6px;
+}
+div.features div.fR{
+    position: relative;
+    left: 74px;
+}
+.whiteBox div.features p{
+    color:#eb2929;
+}
+#f3{
+    margin-top: -2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 51px 0 0 70px;
+    height: 280px;
+}
+#f3 dl dt{
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    padding-bottom: 20px;
+}
+#f3 ul li{
+    list-style-image: url(../images/bulletRed.png);
+    padding-left: 2px;
+    line-height: 28px;
+}
+#f3 ul{
+    padding: 0 20px;
+}
+.orderNowBlock{
+    height: 165px;
+    font:20px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: white;
+    box-sizing: border-box;  
+    padding-top: 54px;
+    width: 100%;
+}
+.orderNowBlock .wrapper{
+    padding-left: 36px;
+}
+.orderNowHeading dt{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 36px;
+}
+input[type=text], textarea{
+    background: url(../images/input-bg.png) no-repeat;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    font: inherit;
+    margin: 8px 0 0 42px;
+    font:20px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    resize: none;
+    /*PLACEHOLDER text color*/
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color:#aeaeae;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:#aeaeae;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#aeaeae;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#aeaeae;
+    }
+    /*EOF PLACEHOLDER text color*/
+}
+.orderNowBlock img#curveArrowImg{
+    position: relative;
+    top: 40px;
+    left: -39px;
+}
+.orderNowBlock button.buyNow{
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    color: #081e4b;
+    font: inherit;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+    margin-left: 45px;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+.orderNowBlock button#yellow{
+    background: url(../images/buyNow-bg1.jpg) no-repeat;
+}
+.orderNowBlock button#red{
+    background: url(../images/buyNow-bg2.png) no-repeat;
+    color: white;
+}
+.orderNowBlock .onlyFor{
+    position: relative;
+    left: -7px;
+    margin-top: -65px;
+    font-family: 'Roboto', sans-serif;
+}
+.orderNowBlock .onlyFor span{
+    color: white;
+    font-size:48px;
+    font-weight: 100;
+    line-height: 38px;
+}
+.hp-100 div.features div.fL{
+    font-size: 30px;
+    margin-top: -21px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.leaveComment{
+    height: 440px;
+    width: 568px;
+
+    padding: 23px 0 0 81px;
+    font-size: 18px;
+    color: #aeaeae;
+}
+.leaveComment img.triangle{
+    position: relative;
+    top: -26px;
+    margin-left: -2px;
+}
+.leaveComment input.type1, .leaveComment textarea{
+    width: 400px;
+    text-align: left;
+    margin: 0 0 6px 42px;
+    margin-left: 0;
+    font-size: 18px;
+    text-indent: 8px;
+}
+.leaveComment input.type1{
+    height: 30px;
+    background: url(../images/input-bgType1.png) no-repeat;
+}
+.leaveComment textarea{
+    height: 160px;
+    background: url(../images/input-bgType2.png) no-repeat;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+.leaveComment button.postComment{
+    background: url('../images/postComment-bg.png') no-repeat;
+    height: 40px;
+    width: 200px;
+    font: 20px 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-top: 29px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.leaveComment input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+}
+.hdr h1{
+    font: 30px 'Roboto Condensed', sans-serif;
+    color:#fefeff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contacts_phones{
+    width:350px;
+    margin-top: 24px;
+}
+.contacts_phones .phone_number{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    margin-right:30px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+}
+.contacts_phones .phone_number span{
+    color:#eb2929;
+    font-weight: 300;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .redBox, .blueBox, .orderNowBlock{
+        -moz-box-sizing: border-box;
+    }
+}
+/*EOF FIREFOX CSS HACK*/

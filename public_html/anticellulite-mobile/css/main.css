@@ -1,0 +1,678 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.clear{
+    clear: both;
+}
+body{
+    font: 400 16px 'Open Sans', sans-serif;	 
+    letter-spacing: -1.5px;
+}
+.area{
+    width: 100%;
+    min-width: 960px;
+}
+.wrapper{
+    width: 480px;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    /* border-color: #4affff; */
+    /* border-width: 1px; */
+    /* border-style: none solid; */
+}
+.content-left{
+    float: left;
+}
+.content-right{
+    float: right;
+}
+.border-box{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+button{
+    cursor: pointer;
+}
+.area{
+    width: 100%;
+    min-width: 480px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* - - - */
+.slc1{
+    background: url('../images/gradient.png') repeat-x;
+}
+.slc1 .wrapper{
+    position: relative;
+
+    /* overflow-x: hidden; */
+}
+.slc1 .photo{
+    background: url('../images/slc1-photo.png') no-repeat;
+    width: 269px;
+    height: 542px;
+    left: 227px;
+    position: absolute;
+    z-index: 0;
+}
+.slc1  img.logo{
+
+    margin-left: 8px;
+    
+
+    margin-top: 1px;
+
+}
+.slc1 .rectangle{
+    width: 246px;
+    height: 81px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 5px solid white; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */ /* layer fill content */
+
+    text-align: center;
+    padding: 11px 0;
+    margin-top: -9px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 1;
+}
+.slc1 .rectangle h1{
+    color: #fff; /* text color */
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.slc1 .rectangle h2{
+    color: #fff; /* text color */
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 27px;
+}
+.slc1 div.triangle.type1{
+    left: -15px;
+    top: 46px;
+}
+.slc1 div.triangle.type2{
+    top: 150px;
+    left: 198px;
+}
+div.triangle.type1{
+    width: 54px;
+    height: 25px;
+    background: url('../images/gtr.png') no-repeat;
+    position: absolute;
+}
+div.triangle.type2{
+    width: 139px;
+    height: 149px;
+    background: url('../images/gtr2.png') no-repeat;
+    position: absolute;
+}
+.slc1 .price{
+
+}
+.price h3{
+    color: #fff; /* text color */
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-left: 8px;
+    line-height: 0px;
+}
+.price span.crossed{
+    color: black;
+    position: relative;
+    margin: 10px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.price span.crossed:before{
+    background: url('../images/cross.png') no-repeat;
+    position: absolute;
+    top: 5px;
+    content: '';
+    width: 76px;
+    height: 10px;
+    pointer-events: none;
+    z-index: 10;
+}
+.price h1{
+    color: #cf1551; /* text color */
+    font-size: 57px;
+    font-weight: 700;
+    margin-left: 8px;
+    position: relative;
+    vertical-align: bottom;
+}
+.price h1 span.currency{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.slc1 img.info1{
+    margin-left: -7px;
+    margin-top: -17px;
+    position: relative;
+    z-index: 1;
+}
+.slc1 img.info2{
+    margin-left: 71px;
+    margin-top: -73px;
+    position: relative;
+    z-index: 2;
+}
+.slc2{
+    background: url('../images/slc2-bg.png') repeat-x;
+    width: 100%;
+    height: 407px;
+    position: relative;
+    margin-top: -30px;
+    overflow: hidden;
+    z-index: 3;
+}
+div.triangle.type3{
+    width: 88px;
+    height: 77px;
+    background: url('../images/gtr3.png') no-repeat;
+    position: absolute;
+}
+.slc2 div.graphics{
+    background: url('../images/slc2-graphics1.jpg') no-repeat;
+    width: 146px;
+    height: 290px;
+    position: absolute;
+    margin-left: 100%;
+    left: -146px;
+    top: 10px;
+}
+.slc2 .wrapper{
+    position: relative;
+
+    text-align: center;
+}
+.slc2 div.triangle.type3{
+    left: 368px;
+
+    top: -38px;
+}
+.slc2 h2{
+    font-weight: 300;
+    color: #fff; /* text color */
+    font-size: 25px;
+    text-align: center;
+    margin-top: 33px;
+    letter-spacing: 0.4px;
+}
+.slc2 .countdown{
+}
+.slc2 .price h3 span{
+    color: #f10559; /* text color */
+}
+.slc2 .price h1{
+    color:white;    
+}
+button.orderNow{
+    width: 336px;
+    height: 65px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: #ed0054;
+    font-family: 'pf_dindisplay_probold';
+    font-weight: bold;
+    font-size: 27px;
+    border-bottom: 4px solid #56011e;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    text-shadow: 1px 1px 1px #830632;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+button.orderNow:hover{
+    background-color: #ff1551;
+}
+.slc2 .price{
+    position: relative;
+    top: 18px;
+    left: -17px;
+}
+.slc2 .orderNow{
+    margin-top: 30px;
+}
+.slc3{
+    color: black;
+}
+.slc3 .wrapper{
+    position: relative;
+
+    padding-left: 16px;
+    padding-right: 18px;
+}
+.slc3 div.triangle.type1{
+    left: 361px;
+
+    top: 4px;
+}
+.slc3 h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 23px;
+    text-indent: -40px;
+    letter-spacing: 0;
+    margin-bottom: 22px;
+}
+.slc3 h6{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    width: 410px;
+}
+.slc3 p{
+    margin-bottom: 10px;
+
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.slc3 img.img1{
+    margin-top: -10px;
+    margin-left: -66px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.slc3 img.img2{
+    margin-top: -154px;
+    margin-left: 331px;
+    position: absolute;
+    z-index: 0;
+}
+table.bullets-block{
+    letter-spacing: normal;
+}
+table.bullets-block td.bullet{
+    background: url('../images/bullet1.png') no-repeat center;
+    width: 33px;
+    height: 32px;
+}
+table.bullets-block tr{
+
+}
+table.bullets-block tr td:not(.bullet){
+    padding: 9px 26px;
+    line-height: 20px;
+}
+.slc4{
+    background-image: url("../images/slc4-bg.jpg"); /* layer fill content */
+    color: white;
+    letter-spacing: normal;
+}
+.slc4 .wrapper{
+    position: relative;
+
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 1px;
+}
+.slc4 div.triangle.type1{
+    top: 503px;
+
+    left: 428px;
+}
+.slc4 div.triangle.type1.second{
+    top: 1089px;
+
+    left: -7px;
+}
+.slc4 div.triangle.type2{
+    top: 40px;
+
+    left: -45px;
+}
+.slc4 h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.slc4 .reviews{
+
+}
+.reviews{
+
+}
+.slc4 button.orderNow{
+    margin-bottom: 50px;
+}
+.reviews .item{
+    margin: 36px 0;
+
+}
+.reviews .item .bubble{
+    font: 14px "Times New Roman", sans-serif;
+    text-align: left;
+    width: 433px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */ /* drop shadow and inner glow */ /* drop shadow and inner glow */ /* drop shadow and inner glow */
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.33); 
+    padding: 16px 20px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+.reviews .item .bubble:after{
+    content:"";
+    /* display: inline-block; */
+    background: url('../images/bubble-addition.png') no-repeat;
+    width: 39px;
+    height: 25px;
+    position: absolute;
+    top: 100%;
+    left: 66%;
+}
+.reviews .item .bubble p{
+    color: #515151;
+
+}
+.reviews .item .bubble p span.font{
+    font-family: Open Sans, sans-serif;
+}
+.reviews .item .bubble h6{
+    font-weight: 400;
+    color: #bfbfbf;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    /* display: inline-block; */
+    /* width: 80%; */
+}
+.reviews .item .bubble h6:after{
+    content:"";
+    display: inline-block;
+    background: url('../images/bullet1.png') no-repeat;
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    left: 94%;
+    margin-top: -10px;
+}
+.reviews .item img{
+    border: 4px solid #fff; /* stroke */
+    border-radius: 4px;
+}
+.slc5{
+    letter-spacing: normal;
+
+}
+.slc5 .wrapper{
+    position: relative;
+
+    padding: 43px 10px;
+}
+.slc5 div.triangle.type2{
+    top: 392px;
+
+    left: -10px;
+}
+.slc5 img.item1{
+    position:absolute;
+    top: 17px;
+    left: 259px;
+}
+.slc5 img.item2{
+    position:absolute;
+    top: 439px;
+    left: 253px;
+}
+.slc5 h4{
+    color: #1b1b1b; /* text color */
+    font-size: 21px;
+    font-weight: bold;
+    background-color: #add00a;
+    display: inline-block;
+    padding: 6px 15px;
+}
+.slc5 table.list-block{
+    margin-left: 5px;
+
+    margin-top: 26px;
+    position: relative;
+    z-index: 1;
+}
+table.list-block{
+
+}
+table.list-block tr{
+
+}
+table.list-block tr td.bullet{
+    min-width: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table.list-block tr td.text{
+    color: #000; /* text color */
+    font-size: 16px;
+    font-weight: 900;
+    width: 280px;
+    padding: 12px 22px;
+}
+table.list-block tr td.bullet.type1{
+    background-image: url("../images/slc5-bullet1.png")
+}
+table.list-block tr td.bullet.type2{
+    background-image: url("../images/slc5-bullet2.png")
+}
+table.list-block tr td.bullet.type3{
+    background-image: url("../images/slc5-bullet3.png")
+}
+table.list-block tr td.bullet.type4{
+    background-image: url("../images/slc5-bullet4.png")
+}
+table.list-block tr td.bullet.type5{
+    background-image: url("../images/slc5-bullet5.png")
+}
+.slc5 h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: #f10559; /* layer fill content */
+    display: inline-block;
+    padding: 0px 20px 4px 20px;
+    position: relative;
+    margin-top: 31px;
+    margin-left: 20px;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+.slc5 h3:before{
+    content:"";
+    display: inline-block;
+    background: url('../images/slc5-h3-addition.png') no-repeat;
+    width: 62px;
+    height: 65px;
+    position: absolute;
+    left: -40px;
+    margin-top: -10px;
+    z-index: 5;
+}
+.slc2 .slc6{
+    background: url("../images/slc2-addition.png") no-repeat;
+    width: 368px;
+    height: 286px;
+    padding: 80px 32px;
+    margin-left: 80px;
+    margin-top: -22px;
+}
+.slc6 h3{
+    color: #fff; /* text color */
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+.slc7{
+    background-image: url("../images/slc7-bg.jpg");
+    margin-top: -5px;
+    letter-spacing: normal;
+    padding-bottom: 20px;
+    height: 820px;
+}
+.slc7 .wrapper{
+    position: relative;
+
+    text-align: center;
+}
+.slc7 h1{
+    color: #1b1b1b; /* text color */
+    display: inline-block;
+    padding: 15px 16px;
+    position: relative;
+    background-color: #add00a; /* text color */
+    font-size: 21px;
+    font-weight: bold;
+
+    margin-top: 42px;
+    margin-bottom: 24px;
+    width: 100%;
+    text-align: center;
+}
+.slc7 h1:after{
+    content:"";
+    display: inline-block;
+    background: url('../images/slc7-h1-after.png') no-repeat;
+    width: 109px;
+    height: 15px;
+    position: absolute;
+    left: 35%;
+    margin-top: 43px;
+    z-index: 5;
+}
+form.order{
+    text-align: left;
+
+    margin: 6px 13%;
+}
+form.order label{
+    color: #fff; /* text color */
+    font-size: 25px;
+    font-weight: 300;
+
+    display: block;
+    line-height: 47px;
+}
+form.order input[type="text"],
+form.order select{
+    color: #000; /* text color */
+    font-size: 22px;
+    font-weight: 600;
+    width: 357px;
+    height: 48px;
+    border: 1px solid #fff; /* stroke */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: inset 0 3px 3px rgba(0,0,0,.34); /* inner shadow */
+    -webkit-box-shadow: inset 0 3px 3px rgba(0,0,0,.34); /* inner shadow */
+    box-shadow: inset 0 3px 3px rgba(0,0,0,.34); /* inner shadow */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 15px;
+}
+form.order p{
+    color: #8e8e8e; /* text color */
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+form.order p.footer{
+    line-height: 14px;
+    margin-bottom:20px;
+    padding: 0 16px;
+}
+button.orderNow.type2{
+    text-indent: -50px;
+    margin-left: 12px;
+    position: relative;
+    z-index: 1;
+    margin-top: 25px;
+    font-size: 24px;
+    padding-top: 4px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+button.orderNow.type2:after{
+    content:"";
+    display: inline-block;
+    background: url('../images/orderNowT2-addition.png') no-repeat;
+    width: 33px;
+    height: 28px;
+    position: absolute;
+    left: 81%;
+    margin-top: 14px;
+    z-index: 5;
+}
+slc7 button.orderNow.type2{
+
+}
+.slc7 div.triangle.type1{
+    top: 619px;
+    left: 379px;
+}
+.slc8{
+    background: url("../images/slc8-bg.png") repeat-x;
+    height: 114px;
+    margin-top: -29px /**/;
+    color: #433843; /* text color */
+    font-size: 11px;
+    text-align: center;
+    padding: 26px 0;
+    letter-spacing: normal;
+}
+.slc8 a{
+    text-decoration: underline;
+    color:inherit;
+}
+.slc8 a:hover{
+    text-decoration: none;
+}
+.slc8 a:visited{
+    color:inherit;
+}
+.slc8 p{
+}
+.slc2.type2{
+    background: url("../images/slc2-type2-bg.png") repeat-x;
+    height: 312px;
+    margin-top: -25px;
+}
+.slc8 .wrapper{
+    padding: 0 30px; 
+}

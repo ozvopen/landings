@@ -1,0 +1,57 @@
+.slc9 .container{
+    width: 100%;  padding: 23px 3px;  
+}
+.slc9 .container .heading h1{
+    height: 48px;
+    display: block;
+    font-size: 40px;
+    width: auto;
+}
+.slc9 .heading a.return-to-catalog{
+    background: url('../images/one-share/a-before.png') no-repeat 0%;
+
+    font-size: 13px;
+    text-decoration: none;
+    text-indent: 15px;
+}
+.slc9 h6.date{
+    margin-left:18px;
+}
+.slc17{
+    padding: 24px 1px;
+
+}
+.slc17 img{
+    margin: 10px;
+
+    margin-left: 0;
+}
+.slc17 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    color: #333; /* text color */
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 6px 0;
+}
+.social-small{
+    margin-right: 20px;
+}
+.slc19{
+    padding: 21px 0px;
+    
+}
+.slc19 .reviews{
+    
+}
+.slc19 .reviews .review{
+    width: 544px;
+    
+    height: auto;
+}
+.slc19 .reviews .review p{
+    width: auto;
+    
+}

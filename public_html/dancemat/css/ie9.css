@@ -1,0 +1,14 @@
+/*IE9 CSS HACK V1.0*/
+@charset "utf-8";
+.ticket > .line1, .ticket > .line2, .ticket > .line3{
+    filter: Shadow(Color=#183a65, Direction=0, Strength=1);
+}
+.title_block, .title_block > .bottom{
+    filter: Shadow(Color=#000, Direction=130, Strength=20);
+}
+.tabs {
+    bottom: 235px;
+}
+.store_operation {
+    left: -181px;
+}

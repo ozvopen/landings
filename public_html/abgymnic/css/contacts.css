@@ -1,0 +1,106 @@
+.header nav ul.menu li#contacts a{
+    color: #081e4b;
+}
+.hdr .wrapper{
+    height: 165px;
+    background-color: #081e4b;
+    padding: 64px 58px;
+}
+.info .whiteBox{
+    color:#081e4b;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    width: 480px;
+    height: 280px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+.info .whiteBox h3{
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: inherit;
+}
+.info .whiteBox p{
+    text-transform: uppercase;
+    font-size:20px;
+    margin-top: 6px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+.info .whiteBox .contacts_phones{
+    margin-top: 4px;
+    margin-bottom: 37px;
+}
+.info .whiteBox .contacts_phones .phone_number{
+    font-size:20px;
+    line-height: 36px;
+    margin-right: 18px;
+}
+.info img.triangle{
+    margin-left: -25px;
+    position: relative;
+    top: -5px;
+}
+.info .redBox h1{
+    font-size:24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.info .leaveComment{
+    margin-top: -195px;
+}
+#cnt1{
+    margin-top: -26px;
+    padding: 39px 51px;
+}
+#cnt2{
+    width: 100px;
+    height: 280px;
+    background-color: #eb2929;
+    margin-right: -100px;
+}
+.leaveComment img.triangle{
+    margin-left: 54px;
+    top: -26px;
+}
+.leaveComment button.postComment{
+    width:160px;
+}
+.info .redBox.about{
+    height: 370px;
+    width: 480px;
+    margin-top: -245px;
+    padding: 40px 106px 0 10px;
+}
+.info .redBox.about p{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+.offset.about{
+    width: 100px;
+    height: 370px;
+    margin-left:-100px;
+    margin-top: -245px;
+    background-color: #eb2929;
+}
+.ordering{
+    margin-top: 64px;
+}
+.ordering h3{
+    margin-top: 56px !important;
+}
+.ordering h1{
+    margin-top: 26px !important;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .info .whiteBox{
+        -moz-box-sizing: border-box;
+    }
+    #cnt1{
+        margin-top: -27px;
+    }
+}
+/*EOF FIREFOX CSS HACK*/

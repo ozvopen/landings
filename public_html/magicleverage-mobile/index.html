@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>babyliss-mobile</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/counter.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+        <![endif]-->
+
+        <!-- Countdown -->
+        <script type="text/javascript" src="js/countdown.min.js"></script>
+        <script>
+            window.onload = function () {
+                var scheduledDays = new Date(),
+                        myHours = 1000000,
+                        myMinutes = 49,
+                        mySeconds = 33;
+                scheduledDays.setHours(scheduledDays.getHours() + myHours);
+                scheduledDays.setMinutes(scheduledDays.getMinutes() + myMinutes);
+                scheduledDays.setSeconds(scheduledDays.getSeconds() + mySeconds);
+                var timer1 =
+                        countdown(
+                                scheduledDays,
+                                function (ts) {
+                                    if (ts.value <= 0) {
+                                        var block = document.getElementsByClassName('countdown');
+                                        for (var i = 0; i < block.length; i++) {
+                                            //console.log('i = ' + i);
+                                            var daysSection = block[i].getElementsByClassName('days'),
+                                                    hoursSection = block[i].getElementsByClassName('hours'),
+                                                    minutesSection = block[i].getElementsByClassName('minutes'),
+                                                    secondsSection = block[i].getElementsByClassName('seconds');
+                                            for (j = 0; j < daysSection.length; j++) {
+                                                //console.log('j = ' + j);
+                                                daysSection[j].getElementsByClassName('value')[0].innerHTML = ts.days.toString();
+                                            }
+                                            for (j = 0; j < hoursSection.length; j++) {
+                                                //console.log('j = ' + j);
+                                                hoursSection[j].getElementsByClassName('value')[0].innerHTML = ts.hours.toString();
+                                            }
+                                            for (j = 0; j < minutesSection.length; j++) {
+                                                //console.log('j = ' + j);
+                                                minutesSection[j].getElementsByClassName('value')[0].innerHTML = ts.minutes.toString();
+                                            }
+                                            for (j = 0; j < secondsSection.length; j++) {
+                                                //console.log('j = ' + j);
+                                                secondsSection[j].getElementsByClassName('value')[0].innerHTML = ts.seconds.toString();
+                                            }
+                                        }
+                                    } else {
+                                        window.clearInterval(timer1);
+                                    }
+                                },
+                                countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS);
+
+            };
+        </script>
+        <!-- / -->
+    </head>
+    <body>
+        <div class="slc1 area">
+            <div class="wrapper">
+                <div class="photo"></div>
+                <div class="triangle type2"></div>
+                <a href="index.html">
+                    <img alt="" src="images/logo.png" width="246" height="101" class="logo">
+                </a>
+                <div class="rectangle border-box">
+                    <h1>супер кудряшки</h1>
+                    <h2>за 0 минут</h2>
+                    <div class="triangle type1"></div>
+                </div>
+                <div class="price">
+                    <h3>Всего за
+                        <span class="crossed">
+                            <span class="price_old0">0x00</span>
+                            <span class="price_currency">cc</span>
+                        </span>
+                    </h3>
+                    <h1>
+                        <span class="price_only0">0x00</span>
+                        <span class="currency price_currency">cc</span>
+                    </h1>
+                </div>
+                <div class="clear"></div>
+                <img class="info1" src="images/slc1-img1.png" width="319" height="311" alt="">
+            </div>
+        </div>
+        <div class="slc2 area">
+            <div class="wrapper">
+                <div class="graphics"></div>
+                <div class="triangle type3"></div>
+                <h2>Невероятная нитка!</h2>
+                <div class="clear"></div>
+
+                <div class="counter countdown">
+                    <div class="section days">
+                        <label>Дни</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section hours">
+                        <label>Часы</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section minutes">
+                        <label>Мин</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section seconds">
+                        <label>Сек</label>
+                        <span class="value"></span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="price">
+                    <h3>Всего за
+                        <span class="crossed">
+                            <span class="price_old0">0x00</span>
+                            <span class="price_currency">cc</span>
+                        </span>
+                    </h3>
+                    <h1>
+                        <span class="price_only0">0x00</span>
+                        <span class="currency price_currency">cc</span>
+                    </h1>
+                </div>
+                <button onClick="window.location.href = '#orderform'" class="orderNow">Закажите сейчас</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="slc3 area">
+            <div class="wrapper">
+                <div class="triangle type1"></div>
+                <h3>Что это такое?</h3>
+                <h6>Волшебные бигуди! Благодаря им Вы можете всего за 15 минут получить эффект локонов абсолютно безопасно. Миллионы женщин по всему миру уже по достоинству оценили эту новинку!</h6>
+                <table class="bullets-block">
+                    <tr>
+                        <td class="bullet"></td>
+                        <td>Благодаря уникальной структуре бигудей, эффект достигается всего за 15 минут!</td>
+                    </tr>
+                    <tr>
+                        <td class="bullet"></td>
+                        <td>Благодаря экологически чистым материалам, бигуди абсолютно безопасно создают локоны вашей мечты.</td>
+                    </tr>
+                    <tr>
+                        <td class="bullet"></td>
+                        <td>После приобретения Волшебных бигудей вы начнете экономить на средствах для укладки!</td>
+                    </tr>
+                    <tr>
+                        <td class="bullet"></td>
+                        <td>Вы будете получать удовольствие от покупки, каждый раз когда Вам будут говорить: "В каком салоне делала прическу?</td>
+                    </tr>
+                    <tr>
+                        <td class="bullet"></td>
+                        <td>Бигуди «Magic Leverage» cоздают большой объем, обеспечивают бережное отношение к волосам, легки в использовании. Эффектные кудряшки за15мин!</td>
+                    </tr>
+                </table>
+                <img class="img1" src="images/slc3-img1.png" width="425" height="357" alt="">
+                <img class="img2" src="images/slc3-img2.jpg" width="201" height="184" alt="">
+            </div>
+        </div>
+        <div class="slc4 area">
+            <div class="wrapper">
+                <div class="triangle type1"></div>
+                <div class="triangle type1 second"></div>
+                <div class="triangle type2"></div>
+                <h2>Фото-отзывы покупателей</h2>
+                <div class="reviews">
+                    <div class="item">
+                        <div class="bubble border-box">
+                            <p>Стайлер <span class="font">BaByliss Pro Perfect Curl</span> абсолютно <span class="uppercase">БЕЗОПАСЕН</span>.
+                                <br>Нагревательные элементы полностью закрыты пластиком.
+                                <br>Довольна как слон!
+                            </p>
+                            <h6>Екатерина, г. Киев</h6>
+                        </div>
+                        <img src="images/ava1.jpg" width="320" height="218" class="avatar" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="bubble border-box">
+                            <p>Стайлер <span class="font">BaByliss Pro Perfect Curl</span> абсолютно <span class="uppercase">БЕЗОПАСЕН</span>.
+                                <br>Нагревательные элементы полностью закрыты пластиком.
+                                <br>Довольна как слон!
+                            </p>
+                            <h6>Екатерина, г. Киев</h6>
+                        </div>
+                        <img src="images/ava2.jpg" width="320" height="218" class="avatar" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="bubble border-box">
+                            <p>Стайлер <span class="font">BaByliss Pro Perfect Curl</span> абсолютно <span class="uppercase">БЕЗОПАСЕН</span>.
+                                <br>Нагревательные элементы полностью закрыты пластиком.
+                                <br>Довольна как слон!
+                            </p>
+                            <h6>Екатерина, г. Киев</h6>
+                        </div>
+                        <img src="images/ava3.jpg" width="320" height="218" class="avatar" alt="">
+                    </div>
+                </div>
+                <button onClick="window.location.href = '#orderform'" class="orderNow">Закажите сейчас</button>
+            </div>
+        </div>
+        <div class="slc5 area">
+            <div class="wrapper">
+                <div class="triangle type2"></div>
+                <img class="item1" src="images/slc5-img1.jpg" width="290" height="357" alt="">
+                <img class="item2" src="images/slc5-img2.jpg" width="205" height="205" alt="">
+                <h4>Почему выбирают нас?</h4>
+                <table class="list-block">
+                    <tbody>
+                        <tr>
+                            <td class="bullet type1"></td>
+                            <td class="text border-box">Профессиональное<br>средство увеличения</td>
+                        </tr>
+                        <tr>
+                            <td class="bullet type2"></td>
+                            <td class="text border-box">Товар всегда<br>в наличии</td>
+                        </tr>
+                        <tr>
+                            <td class="bullet type3"></td>
+                            <td class="text border-box">Не понравился<br>товар - вернем<br>деньги</td>
+                        </tr>
+                        <tr>
+                            <td class="bullet type4"></td>
+                            <td class="text border-box">Быстрый возврат<br>и замена товара</td>
+                        </tr>
+                        <tr>
+                            <td class="bullet type5"></td>
+                            <td class="text border-box">Товар от официального<br>производителя</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <center>
+                    <h3>Гарантия супер-форм</h3>
+                </center>
+            </div>
+        </div>
+        <div class="slc2 type2 area">
+            <div class="wrapper">
+                <div class="triangle type3"></div>
+                <h2>Мега-акция!</h2>
+                <div class="clear"></div>
+
+                <div class="counter countdown">
+                    <div class="section days">
+                        <label>Дни</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section hours">
+                        <label>Часы</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section minutes">
+                        <label>Мин</label>
+                        <span class="value"></span>
+                    </div>
+                    <div class="section seconds">
+                        <label>Сек</label>
+                        <span class="value"></span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="price">
+                    <h3>Всего за
+                        <span class="crossed">
+                            <span class="price_old0">0x00</span>
+                            <span class="price_currency">cc</span>
+                        </span>
+                    </h3>
+                    <h1>
+                        <span class="price_only0">0x00</span>
+                        <span class="currency price_currency">cc</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="slc7 area">
+            <div class="wrapper">
+                <div class="triangle type1"></div>
+                <form action="" method="post" onsubmit="" class="order" id="orderform">
+                    <h1 class="border-box">Заполните форму заказа:</h1>
+                    <label>Страна:</label>
+                    <select onchange="">
+                        <option value="LPLX" selected>Лапландия</option>
+                        <option value="RU" selected>Россия</option>
+                        <option value="KZ" selected>Казахстан</option>
+                        <option value="BY" selected>Белорусь</option>
+                    </select>
+                    <p>например, Иванова Катерина Петровна</p>
+                    <label>Ваши ФИО:</label>
+                    <input type="text" name="client">
+                    <p>например, Иванова Катерина Петровна</p>
+                    <label>Телефон:</label>
+                    <input type="text" name="tel" id="phone" required>
+                    <p>например, +79162105050</p>
+                    <label>Адрес доставки:</label>
+                    <input type="text" name="adress">
+                    <p>например, г.Москва, ул. Красноармейская 5, кв. 99</p>
+                    <button class="orderNow2" type="submit">Отправить заказ</button>
+                    <p class="footer">В течении 1-24 часов после оформления заявки,<br>с Вами свяжется менеджер для уточнения деталей заказа и адреса доставки.</p>
+                </form>
+            </div>
+        </div>
+        <div class="slc8 area border-box">
+            <div class="wrapper">
+                <p id="footer_text">
+                    ООО "Представительство китайского оффиса Деда Мороза" ИНН 7878368992 ОГРН 0077223294842, 122880 Лапландия, пгт. "Дедоморозово", ул. Сказочная д. 1, литер Х, помещение DM2<br>
+                    <a href="">Политика в большом городе </a>
+                    <br>
+                    <a href="">Условия оформления ипотеки</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.offeringContent{
+    background: url(../images/ie-bg1.png) repeat-x;
+}
+.offeringContent.reviews-heading{
+    background: none;
+}
+.reviews-heading .wrapper{
+    background: url(../images/ie-bg4.png) repeat-x;
+}
+.slang{
+    background: url(../images/ie-bg2.png) no-repeat;
+    background-position: top center;
+}
+.reviews{
+    background: url(../images/ie-bg3.png) repeat-x;
+}
+button.orderNow{
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#ff5252,endColorstr=#d70101,GradientType=0);
+}

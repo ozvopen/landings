@@ -1,0 +1,43 @@
+.phone_numbers_part{
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#e6e6e6,endColorstr=#ffffff,GradientType=0);
+    zoom: 1;
+}
+.phone_numbers_part .call_me{
+    margin-top: -28px;
+}
+.top_part{
+    background: url(../images/gradient-bg.png) repeat-x; 
+}
+.top_part .ie-img-bg{
+    background: url(../images/top_part_bg.jpg) no-repeat;
+    background-position: center 9px;
+    height: 100%;
+}
+.order_form{
+    background: url(../images/order_form_bg.png) no-repeat;
+    width:354px;
+    height:333px;
+    border:none;
+    box-shadow: none;/*IE9*/
+}
+.tabs .tab{
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#e9f3ff,endColorstr=#deecff,GradientType=0);
+}
+.tabs .active{
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#005ea6,endColorstr=#003e75,GradientType=0);
+}
+.footer .wrapper div {
+    float: none;
+}
+.footer .copyright_block{
+    float:left;
+}
+.footer .wrapper{
+    font-weight: lighter;
+}
+.footer .wrapper .bottom_text_left {
+    margin-top: -18px;
+    margin-left: 170px;
+    word-spacing: -1px;
+    letter-spacing: -0.5px;
+}

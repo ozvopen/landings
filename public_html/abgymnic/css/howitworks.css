@@ -1,0 +1,143 @@
+.header nav ul.menu li#howitworks a{
+    color: #081e4b;
+}
+.caracteristic{
+    height: 280px;
+    background-color: #081e4b;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.caracteristic .wrapper{
+    padding: 65px 0 0 5px;
+}
+.caracteristic h3 span.heading{
+    font-size: 30px;
+}
+.caracteristic h3{
+    width: 273px;
+    display: inline-block;
+}
+.caracteristic p{
+    font:20px 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    margin: 10px 78px 0 0;
+    width: 320px;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+.caracteristic img.triangle{
+    position: relative;
+    left: 451px;
+    top: -80px;
+}
+.caracteristic h3{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1.7px;
+}
+.caracteristic h3 span.heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 9px;
+}
+.del1 h3 span.letter-spacing{
+    letter-spacing: 2px;
+}
+.ftr{
+    height: 1145px;
+}
+.ftr .box1{
+    padding: 40px 70px 0 61px;
+    height:340px;
+    margin-top:-115px;
+    line-height: 28px;
+}
+.ftr .whiteBox{
+    height: 225px;
+    width: 480px;
+    box-sizing: border-box;
+    padding: 17px 0 0 76px;
+}
+.ftr img#tipImg2{
+    margin: 0px 0 0 49px;
+}
+.ftr #f3 ul li {
+    list-style-image: url(../images/bulletBlue.png);
+}
+.ftr #f4{
+    height: 560px;
+    padding: 57px 53px 0 60px;
+    line-height: 28px;
+}
+.ftr img#tipImg5{
+    margin-top: 8px;
+    position: relative;
+    right: 73px;
+}
+.ftr #f5{
+    padding: 44px 68px 30px 82px;
+    line-height: 28px;
+}
+.hiw #f6{
+    height: 159px;
+    padding: 59px;
+    letter-spacing: 1.8px;
+    display: inline-block;
+}
+.hiw h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 9px;
+}
+.hiw .offset {
+    background-color: #eb2929;
+    width: 100px;
+    margin-left: -100px;
+    height: 264px;
+    display: inline-block;
+}
+#f7{
+    width: 740px;
+    height:790px;
+}
+.hiw img.triangle {
+    position: relative;
+    left: -31px;
+    top: -74px;
+}
+.hiw .video{
+    margin: 13px -202px 0 0;
+}
+.hiw .blueBox{
+    padding: 64px 10px 10px 51px;}
+.hiw .blueBox p{
+    width: 384px;
+    
+    line-height: 28px;
+}
+.hiw .blueBox p+p{
+    width: 620px;
+    
+    margin-top: 43px;
+}
+.hiw .hp-100{
+    padding: 27px 0 0 136px;
+}
+.hiw #f8{
+    margin-top: -108px;
+    padding: 41px 26px 20px 49px;
+    line-height: 28px;
+}
+.hiw .wrapper{
+    height: 1142px;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .ftr .whiteBox{
+        -moz-box-sizing: border-box;
+    }
+}
+/*EOF FIREFOX CSS HACK*/
