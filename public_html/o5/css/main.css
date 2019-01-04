@@ -678,6 +678,9 @@ figure.slider .roller.item2{
     height: 764px;
     vertical-align: bottom;
 }
+.catalog .heading-wrp{
+    padding: 36px 16px 24px 17px;
+}
 .catalog .heading{
     width: 451px;
     height: 61px;
