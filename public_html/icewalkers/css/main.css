@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300&subset=latin,cyrillic-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300&subset=latin,cyrillic-ext);
 
 *{
     margin:0;
@@ -302,11 +302,11 @@ dl.info dt div.red{
     letter-spacing: inherit;
 }
 .price_block dt {
-    float: left; /* Для размещения на одной строке */
-    width: 152px; /* Ширина для текста */
+    float: left; /* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    width: 152px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 .price_block dd {
-    margin-bottom: 11px; /* Расстояние между строк */
+    margin-bottom: 11px; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
     font-weight: 600;
     margin-left: 152px;
 }
