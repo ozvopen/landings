@@ -1,6 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,cyrillic);
-@import "//webfonts.ru/import/foo.css";
 @import url(//fonts.googleapis.com/css?family=Neucha&subset=cyrillic);
+@font-face {
+    font-family: 'foo';
+    src: url('foo.eot');
+    src: local('Foo'), local('Foo Regular'), url('foo.woff') format('woff');
+    src: url(../fonts/ru.webfonts.foo.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin:0;
     padding:0;
@@ -408,7 +415,7 @@ div.slc1 .middle img.logo{
 div.slc1 .middle h3.title{
     margin-top: -33px;
     margin-left: 8px;
-    font: 400 20px 'Foo', sans-serif;
+    font: 400 20px 'foo', sans-serif;
     color:#d04e00;
     display: inline-block;
     position: relative;
