@@ -1,0 +1,305 @@
+@import url('//fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic');
+a{
+    cursor:pointer !important
+}
+.cart * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+.content-left{
+    float:left;
+}
+.content-right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+#fog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url('../images/fog.png');
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.cart{
+    box-sizing: border-box;
+    width: 900px;
+    height:456px;
+    margin: 35px auto;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 13px 1px #000;
+    -webkit-box-shadow: 0 0 13px 1px #000;
+    box-shadow: 0 0 13px 1px #000;
+    line-height: 1;
+    color: #333;
+    background-color: white;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 14px;
+    position: relative;
+    z-index: 1000;
+}
+.cart .header{
+    width: 100%;
+    height: 69px;
+    background: url('../images/hbg.gif') repeat-x;
+    margin-bottom: 20px;
+}
+.cart h1{
+    color: #303030;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin: 24px 0 0 22px;
+    display: inline-block;
+    font-weight: normal;
+    display: inline-block;
+}
+.cart .header .top-block-link{
+    background: url('../images/arrow2.png') no-repeat left top;
+    height: 13px;
+    color: #303030;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 25px;
+    margin: 27px 0 0 205px;
+    float: left;
+}
+.cart .header .top-block-link:hover{
+    background-position:left bottom;
+}
+.cart .header .close{
+    background: url('../images/cross.png') no-repeat left top;
+    height: 16px;
+    width: 16px;
+    text-indent: -9999px;
+    margin: 24px 27px 0 0;
+}
+.cart .header .close:hover{
+    background-position:left bottom;
+}
+.cart .left-block{
+    background-color: #fbfbfb;
+    width: 375px;
+    padding: 17px 16px 14px 20px;
+    margin: 0 0 20px 19px;
+    float: left;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 0 1px #bbbbbb;
+    -webkit-box-shadow: 0 1px 0 1px #bbbbbb;
+    box-shadow: 0 1px 0 1px #bbbbbb;
+    min-height: 208px;
+}
+.cart .left-block p{
+    margin-bottom: 13px;
+}
+.cart .left-block p span{
+    width: 107px;
+    line-height: 38px;
+    float: left;
+}
+.cart .left-block p input{
+    background: url('../images/input-bg.png') no-repeat;
+    height: 42px;
+    width: 253px;
+    padding-left: 15px;
+    border: none;
+}
+.cart .left-block select{
+    background-color: rgba(0,0,0,0);
+    color: #777777;
+    height: 36px;
+    width: 284px;
+    padding-left: 15px;
+    border: none;
+}
+.cart .left-block div.select-wrapper{
+    background: url('../images/select-bg.png') no-repeat;
+    width: 263px;
+    height: 36px;
+    overflow: hidden;
+}
+.cart .left-block span font{
+    color: #FF0000;
+}
+.cart .left-block textarea{
+    background: url('../images/lines-bg.png') no-repeat;
+    margin: 0px;
+    padding: 12px 15px;
+    border: none;
+    resize:none;
+    width: 268px;
+    height: 71px;
+    box-sizing: border-box;
+}
+.cart .left-block hr{
+    color: #e1e1e1; /*для IE */
+    background-color:#e1e1e1; /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+}
+.cart .left-block a.del-link{
+    background: url('../images/cross3.png') no-repeat left top;
+    height: 12px;
+    color: #303030;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.cart .left-block a.del-link:hover{
+    background-position: left bottom;
+}
+.cart .left-block button{
+    background: url('../images/button-bg.png') no-repeat left top;
+    color: #fff;
+    font-size: 16px;
+    height: 42px;
+    width: 161px;
+    padding-left: 0;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.cart .left-block button:hover{
+    background-position: left bottom;
+}
+.cart .total{
+    color: #303030;
+    margin-right: 30px;
+    float: right;
+    text-align: right;
+}
+.cart .total em{
+    color: #cb2934;
+    font-size: 30px;
+    font-style: normal;
+}
+.cart .right-block{
+    width: 468px;
+}
+.cart .right-block ul.cart-ul{
+    list-style-type: none;
+    padding: 6px 0 0 0;
+}
+.cart .right-block ul.cart-ul li{
+    padding: 0 28px 5px 25px;
+    margin: 0 0 15px 5px;
+    min-height: 110px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.cart .right-block ul.cart-ul li .info {
+    width: 306px;
+    float: right;
+}
+.cart .right-block ul.cart-ul li .info .cost {
+    margin-top: 8px;
+    float: right;
+}
+.cart .right-block ul.cart-ul li .info p {
+    color: #777777;
+    margin: -1px 0 18px 0;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block {
+    background: url('../images/s2-bg.png') no-repeat;
+    width: 68px;
+    height: 42px;
+    margin-top: -3px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block p {
+    width: 28px;
+    float: left;
+    margin: 13px 0 0 15px;
+    max-width: 30px;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block .arrow-up, .cart .right-block ul.cart-ul li .info .arrow-block .arrow-down {
+    height: 6px;
+    width: 15px;
+    margin-top: 12px;
+    margin-right: 10px;
+    float: right;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block .arrow-up{
+    background: url('../images/arr3.png') no-repeat left top;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block .arrow-up:hover{
+    background-position: left bottom;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block .arrow-down {
+    background: url('../images/arr4.png') no-repeat left top;
+    margin-top: 7px;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block .arrow-down:hover {
+    background-position: left bottom;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block input[type="text"]{
+    background: transparent;
+}
+.cart .right-block ul.cart-ul li .info p em{
+    color: black;
+}
+.cart .right-block ul.cart-ul li .info .cost {
+    margin-top: 8px;
+    float: right;
+}
+.cart .right-block ul.cart-ul li .info .cost span {
+    color: #333333;
+    font-size: 24px;
+    margin-right: -4px;
+}
+.cart .right-block ul.cart-ul li .info .cost em {
+    color: #777777;
+    font-size: 14px;
+}
+.cart .right-block ul.cart-ul li .info .arrow-block p .item-count {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: normal;
+    width: 26px;
+    margin-top: -2px;
+}
+.cart .right-block ul li img{
+    margin: 5px 0 0 3px;
+    float: left;
+    width: 96px;
+}
+.cart .right-block ul li .info h2{
+    color: #303030;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: left;
+    max-width: 285px;
+}
+.cart .right-block ul li .info .close{
+    background: url('../images/cross2.png') no-repeat left top;
+    height: 20px;
+    width: 20px;
+    text-indent: -9999px;
+    margin-top: 3px;
+    float: right;
+    cursor: pointer;
+}
+.cart .right-block ul li .info .close:hover{
+    background-position: left bottom;
+}
+/*FIREFOX CSS HACK*/
+@-moz-document url-prefix() {
+    .cart, .cart .left-block textarea, .cart .right-block ul.cart-ul li .info .arrow-block{
+        -moz-box-sizing: border-box;
+    }
+}
+/*EOF FIREFOX CSS HACK*/
