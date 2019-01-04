@@ -631,7 +631,7 @@ slc7 button.orderNow.type2{
 }
 .slc8{
     background: url("../images/slc8-bg.png") repeat-x #281c28;
-    height: 114px;
+    /* height: 114px; */
     margin-top: -23px /**/;
     color: #433843; /* text color */
     font-size: 11px;
