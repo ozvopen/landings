@@ -171,11 +171,10 @@ nav ul.menu li#contacts{
     margin-top: -5px;
     padding: 50px 0 0 76px !important;
 }
-/* offreringContent*/
 .offeringContent{
     background: linear-gradient(to bottom, #081e4b, #081e4b) no-repeat;
     background-size: 100% 300px;
-    height: 1256px;
+    /* height: 1256px; */
     min-width: 960px;
     width: 100%;
     overflow: hidden;
