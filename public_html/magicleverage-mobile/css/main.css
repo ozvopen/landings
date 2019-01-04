@@ -696,7 +696,7 @@ button.orderNow2:hover{
 }
 .slc8{
     background: url("../images/slc8-bg.png") repeat-x;
-    height: 114px;
+    /* height: 114px; */
     margin-top: -23px /**/;
     color: #433843; /* text color */
     font-size: 11px;
