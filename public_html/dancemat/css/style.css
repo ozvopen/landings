@@ -233,6 +233,8 @@ a.buy_now_button p{
     min-width:960px;
     height:481px;
     border-bottom:7px solid #dc0053;
+    position: relative;
+    top:-300px;
 }
 .content-center_area .wrp{
     background:url(../images/bg_middle.jpg) no-repeat;
@@ -329,7 +331,6 @@ a.buy_now_button p{
     margin-right:7px;
     padding:0 20px 0 19px;
     cursor:pointer;
-    margin-top:-3px;
     letter-spacing:0.9px;
 }
 .active{
@@ -339,9 +340,10 @@ a.buy_now_button p{
 /* -- /TABS BLOCK -- */
 .content-bottom_area{
     min-width:960px;
-    border-top:1px solid #e5e5e5;
+    /* border-top:1px solid #e5e5e5; */
     position:relative;
     height: 639px;
+    top: -280px;
 }
 .content{
     width:960px;
@@ -536,6 +538,8 @@ a.buy_now_button p{
     min-width:960px;
     height:93px;
     background-position:center;
+    position: relative;
+    top: -500px;
 }
 /*willy-nilly*/
 .tab_inner3 .title{
@@ -586,15 +590,10 @@ a.buy_now_button p{
     left: 9px;
     top: 36px;
 }
-.store_operation{
-    position:relative;
-    top: 23px;
-    left: -348px;
-}
 /*EOF[willy-nilly]*/
 .satisfied_costumers{
     position:relative;
-    top: -85px;
+    top: -485px;
 }
 .satisfied_costumers .header{
     font-size: 30px;
@@ -677,7 +676,7 @@ a.buy_now_button p{
     word-spacing: -0.5px;
 }
 .header_wrapper_bottom{/*deb*/
-    margin-top: -60px;
+    margin-top: -460px;
 }
 button.buy_now_button{/*deb*/
     cursor: pointer !important;
