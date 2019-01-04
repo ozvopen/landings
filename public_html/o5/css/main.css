@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,cyrillic);
-@import "http://webfonts.ru/import/foo.css";
-@import url(http://fonts.googleapis.com/css?family=Neucha&subset=cyrillic);
+@import url(//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,cyrillic);
+@import "//webfonts.ru/import/foo.css";
+@import url(//fonts.googleapis.com/css?family=Neucha&subset=cyrillic);
 *{
     margin:0;
     padding:0;
