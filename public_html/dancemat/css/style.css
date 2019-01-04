@@ -1,14 +1,19 @@
 @charset "utf-8";
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300&subset=latin,cyrillic-ext);
-@import url(//webfonts.ru/import/intro.css);
+@font-face {
+  font-family: 'ruwebfontsintro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Intro'), local('intro'), url(../fonts/ru.webfonts.intro.otf) format('opentype');
+}
 *{
     margin:0;
     padding:0;
     border:none;	
 }
 body{
-    font:14px 'Open Sans', sans-serif;
+    font:14px 'Open Sans', sans-serif;      
     font-weight:400;
     background:white;	
 }
@@ -101,7 +106,7 @@ body{
     bottom:378px;
 }
 .title_block > .top{
-    font-family:Intro;
+    font-family:ruwebfontsintro;
     font-size:78px;
 }
 .title_block > .bottom{
@@ -244,7 +249,7 @@ a.buy_now_button p{
 .left_panel .header{
     position:relative;
     left:26px;
-    font-family:Intro;
+    font-family:ruwebfontsintro;
     font-size:30px;
     color:#dc0053;
 }
