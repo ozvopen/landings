@@ -58,7 +58,7 @@ getParameterByName = function (name) {
 }
 ;
 window.onload = function () {
-    var requestedElement = getParameterByName('showPopup');
+    var requestedElement = getParameterByName('popup');
     if (requestedElement)
         popupShow('.' + requestedElement);
 };
